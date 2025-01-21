@@ -57,15 +57,13 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          <a>
-            <Image
-              src={PenguinLogo}
-              alt='/'
-              width='60'
-              height='50'
-              className='cursor-pointer'
-            />
-          </a>
+          <Image
+            src={PenguinLogo}
+            alt='/'
+            width='60'
+            height='50'
+            className='cursor-pointer'
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -117,14 +115,12 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <a>
-                  <Image
-                    src={PenguinLogo}
-                    width='60'
-                    height='50'
-                    alt='/'
-                  />
-                </a>
+                <Image
+                  src={PenguinLogo}
+                  width='60'
+                  height='50'
+                  alt='/'
+                />
               </Link>
               <div
                 onClick={handleNav}
